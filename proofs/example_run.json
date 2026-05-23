@@ -1,0 +1,28 @@
+{
+  "run_id": "demo-staking-token",
+  "timestamp": "2025-05-23T00:00:00Z",
+  "input_file": "StakingToken.sol",
+  "input_lines": 62,
+  "model": "gpt-4o",
+  "pipeline": {
+    "total_elapsed_seconds": 12.4,
+    "total_calls": 6,
+    "total_tokens": 24000
+  },
+  "agents": {
+    "api_documenter": {"status": "completed", "tokens": 3240, "latency_ms": 2100},
+    "architecture_analyzer": {"status": "completed", "tokens": 2890, "latency_ms": 1900},
+    "security_note_generator": {"status": "completed", "tokens": 3560, "latency_ms": 2400},
+    "usage_example_generator": {"status": "completed", "tokens": 4120, "latency_ms": 3100},
+    "changelog_generator": {"status": "completed", "tokens": 2340, "latency_ms": 1600},
+    "synthesis": {"status": "completed", "tokens": 7850, "latency_ms": 4800}
+  },
+  "output_sections": [
+    "Overview",
+    "Architecture (with Mermaid diagrams)",
+    "API Reference (6 functions, full NatSpec)",
+    "Security Considerations (risk score 6/10)",
+    "Usage Guide (deployment, integration, tests)",
+    "Changelog (v1.0.0)"
+  ]
+}
